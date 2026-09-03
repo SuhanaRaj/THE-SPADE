@@ -28,7 +28,7 @@ export default function HowItWorks() {
     <div className="section" id="how-it-works">
       <Reveal className="section-head">
         <div className="section-kicker">Process</div>
-        <h2 className="section-title">How SPADE Works</h2>
+        <h2 className="section-title">How NEXORA Works</h2>
       </Reveal>
 
       <div className="steps">

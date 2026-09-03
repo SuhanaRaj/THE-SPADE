@@ -13,7 +13,7 @@ export default function Hero() {
         <div>
           <div className="hero-label">
             <span className="dot" />
-            SMART DISASTER RESPONSE PLATFORM
+            Next Generation AI Drone Intelligence & Response System
           </div>
           <h1>
             Respond faster.
@@ -21,7 +21,7 @@ export default function Hero() {
             <span className="accent">Save more lives.</span>
           </h1>
           <p className="lead">
-            SPADE brings drone monitoring, survivor detection, and emergency
+            NEXORA brings drone monitoring, survivor detection, and emergency
             coordination into one intelligent response platform.
           </p>
           <div className="hero-actions">

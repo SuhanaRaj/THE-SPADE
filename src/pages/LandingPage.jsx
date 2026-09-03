@@ -14,10 +14,10 @@ export default function LandingPage() {
 
       <div className="l-footer">
         <div className="logo-word">
-          SPADE<span>.</span>
+          NEXORA<span>.</span>
         </div>
         <div className="l-footer-note">
-          Smart Platform for Autonomous Disaster Emergency Response
+          Next-Generation AI Drone Intelligence & Response System
         </div>
       </div>
     </div>

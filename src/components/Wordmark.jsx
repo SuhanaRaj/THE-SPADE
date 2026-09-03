@@ -9,7 +9,7 @@ export default function Wordmark({ onClick }) {
         </svg>
       </div>
       <div className="logo-word">
-        SPADE<span>.</span>
+        NEXORA<span>.</span>
       </div>
     </div>
   );

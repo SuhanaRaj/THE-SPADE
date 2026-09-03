@@ -42,11 +42,29 @@ export default function MissionMap({ drone, survivors, onSelectSurvivor, flyToId
         attributionControl={false}
         style={{ position: "absolute", inset: 0 }}
       >
-        <TileLayer
+        {/* <TileLayer
           url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
           subdomains="abcd"
           maxZoom={19}
-        />
+        /> */}
+
+        {/* <TileLayer
+          attribution="Tiles &copy; Esri"
+          url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+          maxZoom={19}
+        /> */}
+
+      <TileLayer
+  attribution="Tiles &copy; Esri"
+  url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+  maxZoom={19}
+/>
+
+<TileLayer
+  attribution="&copy; Esri"
+  url="https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
+  maxZoom={19}
+/>
 
         {ZONES.map((z) => (
           <Circle
